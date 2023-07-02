@@ -13,8 +13,16 @@ const darkMode = ref(false);
               <SidebarLeft />
             </div>
           </div>
+
           <!-- Main Content -->
+          <main class="col-span-12 md:col-span8 xl:col-span-6"></main>
+
           <!-- Right Sidebar -->
+          <div class="hidden md:block md:col-span-3 xl:col-span-4">
+            <div class="sticky top-0">
+              <SidebarRight />
+            </div>
+          </div>
         </div>
       </div>
     </div>
